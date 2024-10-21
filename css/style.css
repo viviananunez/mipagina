@@ -1,0 +1,290 @@
+/*fondo de pagina*/
+html {
+    background-color:#c3a248;
+}
+/*margen para el cuerpo*/
+    body {  
+        margin: 0;
+}
+/*Estilos para el encabezado principal*/
+header {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fffffd;
+    border: 2px,solid, #d5860a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* Estilos para listas desordenadas*/
+ul{
+    list-style: none;
+    display: flex;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Estilos para elementos de listas desordenadas*/
+ul li {
+    margin-left: 20px;
+}
+
+/*Estilos para los enlaces de la lista*/
+header nav ul li a
+{
+text-decoration: none;
+color:#d5860a;
+}
+
+/*Estilo para imagen de logo*/
+.logo {
+    width: 8%;
+    height: 8%;
+}
+
+/*Estilos para imagen del menu*/
+.menu {
+    width:auto;
+    border-radius: 15%;
+    background-color: #c3a248;
+}
+
+/*Estilos para titulos principales*/
+.principal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #fffffd;
+    width: 150%;
+    text-align: center;
+}
+
+/*Propiedades secciones principales*/
+.ppal {
+    display: flex;
+    justify-content:space-between;
+}
+
+/*Propiedades para video principal*/
+.ppal video {
+    width:800px;
+    display: inline-flex;
+}
+
+/*Propiedades para seccion de servicios index*/
+.servicios {
+    display: flex;
+}
+
+/*Estilo para titulos de seccion de servicios index*/
+.servicios h2 {
+    color: #fffffd;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+    display:block;
+    align-content: center;
+}
+
+/*Estilo para div de servicios index*/
+.servicios div{
+    margin: 20px;
+    color: #fffffd;
+    font-size: 20px;
+}
+
+/*Estilo para enlaces de div de servicios index*/
+.servicios div a {
+    text-decoration: none;
+    color:#fffffd;
+}
+
+/*Estilo para titulo de tarjeta*/
+.card-title {
+    font-size: 25px;
+}
+
+/*Estilo para cuerpo de tarjeta*/
+.card-body {   
+    font-size: 20px;
+}
+
+/*Propiedades para seccion de trabajos index*/
+.trabajos {
+    color: #fffffd;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Estilos para pie de pagina*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border: 2px,solid, #d5860a;
+}
+
+/*Estilo para parafo del pie de pagina*/
+footer p {
+    color: #fffffd;
+    margin-left: 15px;
+   
+}
+
+/*Estilo para navegador del pie de pagina*/
+footer nav {
+    display: flex;
+    margin-right: 10px;
+}
+
+/*Estilo para elementos redes*/
+.redes a {
+    text-decoration: none;
+    color: #fffffd;
+}
+
+/*Estilo para imagen de la seccion de redes*/
+.redes img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+.servicios-detallados {
+    margin: 20px;
+    padding: 20px;
+    width: 50%;
+}
+
+.servicios-detallados h2 {
+    color: #fffffd;
+    font-size: 20px;
+}
+
+.servicios-detallados p {
+    color:#fffffd;
+    font-size: 20px;
+}
+
+.servicios-detallados a {
+    color: #fffffd;
+}
+
+/*Estilo para tarejetas de articulos */
+.articulo {
+    display:flexbox;
+    width: 15%;
+    background-color: #fffffd;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.card-img img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+  .card-title a {
+    text-decoration: none;
+    color: #d5860a;
+    font-size: 20px;
+  }
+
+  .card-body p  {
+    color: #c3a248;
+    font-size: 15px;
+    margin: 0px;
+  }
+
+  /*Estilos para Formulario*/
+.formulario ul  {
+    list-style-type: none;
+    display: block;
+}
+
+.formulario li {
+    margin-top: 10px;
+}
+
+.formulario label {
+    color: #fffffd;
+}
+
+.formulario input {
+    border: none;
+    border-radius: 5px;
+}
+
+#opciones  {
+    color: #d5860a;
+}
+
+/*Estilo para titulo del formulario*/
+.titulo-formulario {
+    color: #fffffd;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*Estilo para imagen del formulario*/
+.formulario-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/*Estilo para boton*/
+button  {
+    color:#d5860a;
+    background-color: #fffffd;
+    border:none;
+    border-radius: 10%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/*Estilo galeria de fotos*/
+.galeria {  
+    display: grid;  
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-rows: repeat (auto-fill, minmax(250px));
+    gap: 10px;  
+    padding: 10px;
+}  
+.galeria img {  
+    width: 100%;  
+    height: auto;  
+}  
+.galeria img:hover {
+    transform: scale(1.2);
+}
+
+/*Estilo titulo de proyectos*/
+.titulos-proyectos { 
+    color: #fffffd;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+   
+}
+
+/*Estilo para grid trabajos*/
+.trabajos-content {
+    display: grid;  
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: repeat (auto-fill, minmax(300px, 1fr));
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+/*Estilo para imagen de la seccion contenido de trabajos*/
+.trabajos-content img {
+    width: 350px;
+    border-radius: 5px;
+ }
